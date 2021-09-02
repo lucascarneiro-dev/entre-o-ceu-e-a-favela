@@ -1,0 +1,409 @@
+@font-face {
+  font-family: "Lemon-Tuesday";
+  src: url(/static/fonts/LEMON\ TUESDAY.OTF);
+}
+
+@font-face {
+  font-family: "Muli-Regular";
+  src: url(/static/fonts/MULI-REGULAR.TTF);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  font-family: "Muli-Regular";
+  color: white;
+  font-size: 18px;
+  text-align: justify;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 350px;
+  background-color: rgb(250, 205, 64);
+}
+
+header img:nth-child(1) {
+  height: 100%;
+}
+
+header img:nth-child(2) {
+  height: 60%;
+  align-self: center;
+  margin-left: -100px;
+}
+
+header img:nth-child(3) {
+  width: 60%;
+  align-self: center;
+  margin-left: auto;
+}
+
+body section:nth-child(2):nth-child(1) {
+  display: flex;
+}
+
+body section:nth-child(2) div:nth-child(1) {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  height: 350px;
+  background-image: url(/static/img/P2\ -\ Foto\ azul\ salão.png);
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body section:nth-child(2) div:nth-child(1) img {
+  display: block;
+  position: absolute;
+  align-self: center;
+  width: 600px;
+}
+
+body section:nth-child(2) div:nth-child(2) {
+  margin-right: 0;
+  margin-left: auto;
+  width: 40%;
+  height: 290px;
+  background-color: rgb(238, 78, 124);
+  padding-top: 60px;
+}
+
+.container {
+  display: block;
+  align-self: center;
+}
+
+body section:nth-child(2) div:nth-child(2) img:nth-child(1) {
+  display: block;
+  height: 60px;
+  margin: auto;
+}
+
+body section:nth-child(2) div:nth-child(2) img:nth-child(2) {
+  display: block;
+  margin: auto;
+  height: 150px;
+  margin-top: 30px;
+}
+
+body section:nth-child(3) {
+  background-color: rgb(13, 169, 182);
+}
+
+body section:nth-child(3) img {
+  margin-top: 50px;
+  width: 40%;
+}
+
+body section:nth-child(3) p {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.impacto {
+  background-color: white;
+  width: 100%;
+  height: 800px;
+  
+}
+
+.impacto .cabeçalho {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 40%;
+  height: 150px;
+}
+
+.impacto .cabeçalho img:nth-child(2) {
+  width: 84%;
+  align-self: flex-end;
+}
+
+.impacto .atendimentos {
+  position: absolute;
+  display: flex;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.impacto .atendimentos div img {
+  position: absolute;
+}
+
+.impacto .atendimentos div:nth-child(1) img:nth-child(1) {
+  width: 250px;
+  right: 0px;
+}
+
+.impacto .atendimentos div:nth-child(2) img:nth-child(1) {
+  left: 150px;
+  top: 50px;
+  z-index: 2;
+  width: 250px;
+}
+
+.impacto .atendimentos div:nth-child(2) img:nth-child(2) {
+  left: 30px;
+  top: 290px;
+  width: 160px;
+}
+
+.impacto .atendimentos div:nth-child(3) img:nth-child(1) {
+  left: 380px;
+  top: 100px;
+  width: 250px;
+  z-index: 1;
+}
+
+.impacto .atendimentos div:nth-child(3) img:nth-child(2) {
+  right: 0px;
+  top: 330px;
+  width: 200px;
+}
+
+.impacto .atendimentos div:nth-child(4) img:nth-child(1) {
+  left: 250px;
+  top: 280px;
+  width: 200px;
+  z-index: 3;
+}
+
+.impacto .atendimentos div:nth-child(4) img:nth-child(2) {
+  left: 100px;
+  top: 400px;
+  width: 150px;
+}
+
+.impacto .doacoes {
+  position: absolute;
+  right: 0;
+  margin-top: -200px;
+  display: flex;
+  width: 50%;
+  height: 600px;
+}
+
+.impacto .doacoes div {
+  position: absolute;
+  top: 0;
+}
+.impacto .doacoes img {
+  position: absolute;
+}
+.impacto .doacoes img:nth-child(1) {
+  width: 250px;
+  top:50px;
+  right: 50%;
+  z-index: 3;
+}
+
+.impacto .doacoes img:nth-child(2) {
+  right: 40%;
+  top: 280px;
+  width: 215px;
+  z-index: 2;
+}
+.impacto .doacoes img:nth-child(3) {
+  right: 25%;
+  top: 125px;
+  width: 200px;
+  z-index: 1;
+}
+
+.impacto .doacoes img:nth-child(4) {
+  right: 26%;
+  top: 10%;
+  width: 180px;
+}
+
+.impacto .doacoes img:nth-child(5) {
+  right: 15%;
+  top: 58%;
+  width: 150px;
+}
+
+.impacto .doacoes img:nth-child(6) {
+  right: 16%;
+  top: 72%;
+  width: 150px;
+}
+
+.impacto .doacoes img:nth-child(7) {
+  right: 18%;
+  top: 80%;
+  width: 180px;
+}
+
+.impacto .doacoes img:nth-child(8) {
+  right: 45%;
+  top: 85%;
+  width: 160px;
+}
+
+.impacto .doacoes img:nth-child(9) {
+  right:71%;
+  top: 78%;
+  width: 150px;
+}
+
+.impacto .doacoes img:nth-child(10) {
+  right: 75%;
+  top: 65%;
+  width: 150px;
+}
+
+.metas {
+  background-color: rgb(250, 203, 64);
+  position: absolute;
+  display: flex;
+  right: 0;
+  width: 45%;
+  height: 200px;
+  align-self: flex-end;
+  margin-top: 400px;
+}
+
+.metas img{
+  margin: 50px;
+}
+
+body section:nth-child(5) {
+  width: 100%;
+}
+
+#participar{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+  background-color: rgb(230, 42, 41);
+}
+#participar img{
+  width: 90%;
+}
+
+#trapeziorosa {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  background-color: rgb(233, 75, 123);
+  height: 373px;
+  width: 53%;
+  left: 0;
+  align-content: center;
+  justify-content: center;
+}
+#trapeziorosa img{
+  width: 70%;
+
+}
+
+
+#trapezioazul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: absolute;
+  height: 373px;
+  width: 53%;
+  right: 0;
+  align-content: center;
+  justify-content: center;
+  }
+#trapezioazul img{
+  margin-right: 0px;
+  z-index: 2;
+  width: 70%;
+}
+
+.bg{
+  position: absolute;
+  width: 780px;
+  height: 373px;
+  right: 0;
+  z-index: 1;
+}
+
+.garotofeliz{
+display: flex;
+margin-top: 373px;
+}
+
+.garotofeliz img:nth-child(1){
+  width: 100%;
+}
+
+.garotofeliz img:nth-child(2){
+  width: 80%;
+  align-self: center;
+  margin-left: 10%;
+  position: absolute;
+
+}
+
+.rodape{
+  display: flex;
+  background-color: rgb(13, 169, 182);
+  height: 200px;
+  align-items: center;
+}
+
+.logorodape{
+  display: flex;
+  background-color: rgb(37, 97, 160);
+  width: 20%;
+  height: 100%;
+  align-items: center;
+}
+
+.logorodape img{
+  width: 50%;
+  align-self: center;
+  margin-left: 18%;
+}
+
+.email{
+  display: flex;
+  width: 30%;
+}
+
+.email img:nth-child(1){
+   margin-left: 50px;
+   width: 50px;
+ }
+
+.email img:nth-child(2){
+  position: absolute;
+  margin-left: 20px;
+  width: 450px;
+  align-self: center;
+  margin-left: 125px;
+}
+
+
+.instagram{
+  display: flex;
+  width: 30%;
+  margin-left: 200px;
+}
+
+.instagram img:nth-child(1){
+   margin-left: 50px;
+   width: 50px;
+ }
+
+.instagram img:nth-child(2){
+  position: absolute;
+  margin-left: 20px;
+  width: 250px;
+  align-self: center;
+  margin-left: 125px;
+}
+
+@media (max-width: 800px) {}
