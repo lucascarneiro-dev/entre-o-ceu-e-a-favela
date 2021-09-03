@@ -499,6 +499,7 @@ margin-top: 50vh;
   
   body section:nth-child(2) div:nth-child(1) img:nth-child(1) {
     display: block;
+    position: absolute;
     align-self: center;
     max-height: auto;
     min-width: auto;
