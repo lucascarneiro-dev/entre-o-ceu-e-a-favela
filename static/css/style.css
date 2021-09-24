@@ -8,6 +8,11 @@
   src: url(/static/fonts/MULI-REGULAR.TTF);
 }
 
+@font-face {
+  font-family: "Muli-Black";
+  src: url(/static/fonts/Muli-Black.TTF);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -40,10 +45,28 @@ header img:nth-child(2) {
   top: 5vh;
 }
 
-header img:nth-child(3) {
+header img:nth-child(4) {
   width: 60vw;
   align-self: center;
   right: 0;
+}
+
+#navbar {
+  position: absolute;
+  text-decoration: none;  display: flex;
+  margin-top: 4vh;
+  font-family: 'Muli-Black';
+  width: 60vw;
+  right: 0;
+  justify-content: space-evenly;
+}
+
+
+#navbar a{
+  text-decoration: none;
+  font-family: 'Muli-Black';
+  text-align: center;
+color: black;
 }
 
 body section:nth-child(2) {
@@ -392,7 +415,7 @@ body section:nth-child(3) p {
   position: absolute;
 }
 
-.rodape {
+#rodape {
   display: flex;
   background-color: rgb(230, 42, 41);
   height: 30vh;
@@ -414,23 +437,32 @@ body section:nth-child(3) p {
   margin-left: 18%;
 }
 
+#contato {
+  display: flex;
+  flex-direction:row;
+  
+  width: 50%;
+}
+
 .email {
   display: flex;
   width: 35vw;
+  align-content: center;
   height: 10vh;
 }
 
 .email img:nth-child(1) {
-  margin-left: 5vw;
+  margin-left: 4vw;
   height: 5vh;
 align-self: center;
 }
 
-.email img:nth-child(2) {
-  position: absolute;
+.email a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Muli-Regular';
   align-self: center;
-  margin-left: 15vw;
-  width: 50vw;
+  margin-left: 10px;
 }
 
 .instagram {
@@ -440,16 +472,30 @@ align-self: center;
 }
 
 .instagram img:nth-child(1) {
-  margin-left: 5vw;
+  margin-left: 2vw;
   height: 7vh;
   align-self: center;
 }
 
-.instagram img:nth-child(2) {
+.instagram a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Muli-Regular';
+  align-self: center;
+  margin-left: 10px;
+}
+
+.whatsapp{
+  display: flex;
+  width: 35vw;
+  height: 10vh;
+}
+
+.whatsapp img{
   position: absolute;
   align-self: center;
-  margin-left: 15vw;
-  width: 40vw;
+  margin-left: 2vw;
+  height: 7vh;
 }
 
 @media (max-width: 800px) {
@@ -486,11 +532,14 @@ align-self: center;
     top: 40px;
   }
 
-  header img:nth-child(3) {
+  header img:nth-child(4) {
     width: 90%;
     top: 225px;
   }
 
+  #navbar {
+    display: none;
+  }
   body section:nth-child(2) {
     display: flex;
     flex-wrap: wrap;
@@ -861,7 +910,7 @@ justify-self: center;
     position: absolute;
   }
 
-  .rodape {
+  #rodape {
     display: flex;
     background-color: rgb(13, 169, 182);
     height: 20vh;
@@ -889,16 +938,24 @@ justify-self: center;
 
   .email {
     display: flex;
-    width: 35vw;
-    height: 10vh;
+    width: auto;
+    height: 6vh;
   }
   
   .email img:nth-child(1) {
-    margin-left: 5vw;
+    margin-left: 2vw;
     height: 4vh;
   align-self: center;
   }
-  
+
+  .email a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Muli-Regular';
+    font-size: 11px;
+    align-self: center;
+    margin-left: 10px;
+  }
   .email img:nth-child(2) {
     position: absolute;
     align-self: center;
@@ -908,20 +965,34 @@ justify-self: center;
   
   .instagram {
     display: flex;
-    width: 35vw;
-    height: 10vh;
+    width: auto;
+    height: 6vh;
   }
   
   .instagram img:nth-child(1) {
-    margin-left: 5vw;
+    margin-left: 2vw;
     height: 5vh;
     align-self: center;
   }
-  
-  .instagram img:nth-child(2) {
-    position: absolute;
+  .instagram a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Muli-Regular';
+    font-size: 20px;
     align-self: center;
-    margin-left: 15vw;
-    width: 50vw;
+    margin-left: 10px;
   }
+  
+  .whatsapp{
+  display: flex;
+  width: 5vw;
+  height: 6vh;
+}
+
+.whatsapp img{
+  position: absolute;
+  align-self: center;
+  margin-left: 2vw;
+  height: 5vh;
+}
 }
