@@ -440,7 +440,6 @@ body section:nth-child(3) p {
 #contato {
   display: flex;
   flex-direction:row;
-  
   width: 50%;
 }
 
@@ -452,7 +451,7 @@ body section:nth-child(3) p {
 }
 
 .email img:nth-child(1) {
-  margin-left: 4vw;
+  margin-left: 8vw;
   height: 5vh;
 align-self: center;
 }
@@ -492,6 +491,11 @@ align-self: center;
 }
 
 .whatsapp img{
+  position: absolute;
+  align-self: center;
+  margin-left: 2vw;
+  height: 7vh;
+}.whatsapp a{
   position: absolute;
   align-self: center;
   margin-left: 2vw;
