@@ -498,7 +498,6 @@ align-self: center;
 }.whatsapp a{
   position: absolute;
   align-self: center;
-  margin-left: 2vw;
   height: 7vh;
 }
 
@@ -991,6 +990,7 @@ justify-self: center;
   display: flex;
   width: 5vw;
   height: 6vh;
+  margin-top: 1vh;
 }
 
 .whatsapp img{
