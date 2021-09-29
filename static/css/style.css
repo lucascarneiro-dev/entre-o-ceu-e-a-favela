@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: "Muli-Regular";
-  src: url(../static/fonts/MULI-REGULAR.TTF);
+  src: url(../fonts/MULI-REGULAR.TTF);
 }
 
 @font-face {
   font-family: "Muli-Black";
-  src: url(../static/fonts/Muli-Black.TTF);
+  src: url(../fonts/Muli-Black.TTF);
 }
 
 body {
