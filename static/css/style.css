@@ -13,6 +13,11 @@
   src: url(../fonts/MULI-BLACK.TTF);
 }
 
+@font-face {
+  font-family: "Poppins-Black";
+  src: url(../fonts/POPPINS-BLACK.TTF);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -55,7 +60,7 @@ header img:nth-child(4) {
   position: absolute;
   text-decoration: none;  display: flex;
   margin-top: 4vh;
-  font-family: 'Muli-Black';
+  font-family: 'Poppins-Black';
   width: 60vw;
   right: 0;
   justify-content: space-evenly;
@@ -64,7 +69,6 @@ header img:nth-child(4) {
 
 #navbar a{
   text-decoration: none;
-  font-family: 'Muli-Black';
   text-align: center;
 color: black;
 }
@@ -305,6 +309,7 @@ body section:nth-child(3) p {
   background-color: rgb(230, 42, 41);
   display: flex;
   flex-wrap: wrap;
+  padding-bottom: 5vh;
 }
 
 #acoesemetas .cabecalho {
@@ -462,6 +467,7 @@ align-self: center;
   font-family: 'Muli-Regular';
   align-self: center;
   margin-left: 10px;
+  font-size: 20px;
 }
 
 .instagram {
@@ -482,12 +488,14 @@ align-self: center;
   font-family: 'Muli-Regular';
   align-self: center;
   margin-left: 10px;
+  font-size: 20px;
 }
 
 .whatsapp{
   display: flex;
   width: 35vw;
   height: 10vh;
+  align-content: center;
 }
 
 .whatsapp img{
@@ -495,10 +503,15 @@ align-self: center;
   align-self: center;
   margin-left: 2vw;
   height: 7vh;
-}.whatsapp a{
-  position: absolute;
+}
+.whatsapp a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Muli-Regular';
   align-self: center;
-  height: 7vh;
+  margin-left: 6vw;
+  font-size: 20px;
+  width: 15vw;
 }
 
 @media (max-width: 800px) {
@@ -947,7 +960,7 @@ justify-self: center;
   
   .email img:nth-child(1) {
     margin-left: 2vw;
-    height: 4vh;
+    height: 3.5vh;
   align-self: center;
   }
 
@@ -955,16 +968,11 @@ justify-self: center;
     text-decoration: none;
     color:white;
     font-family: 'Muli-Regular';
-    font-size: 11px;
     align-self: center;
-    margin-left: 10px;
-  }
-  .email img:nth-child(2) {
-    position: absolute;
-    align-self: center;
-    margin-left: 15vw;
-    width: 50vw;
-  }
+    margin-left: 12px;
+  font-size: 12px;
+}
+  
   
   .instagram {
     display: flex;
@@ -984,11 +992,12 @@ justify-self: center;
     font-size: 20px;
     align-self: center;
     margin-left: 10px;
-  }
+  font-size: 18px;
+}
   
   .whatsapp{
   display: flex;
-  width: 5vw;
+  width: 60vw;
   height: 6vh;
   margin-top: 1vh;
 }
@@ -998,5 +1007,14 @@ justify-self: center;
   align-self: center;
   margin-left: 2vw;
   height: 5vh;
+}
+.whatsapp a{
+  text-decoration: none;
+  color:white;
+  font-family: 'Muli-Regular';
+  align-self: center;
+  margin-left:15vw;
+  font-size: 18px;
+  width: 60vw;
 }
 }
